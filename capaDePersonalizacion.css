@@ -1,0 +1,108 @@
+#separado {
+
+
+height: 800PX;
+float: left;
+background-color: rgb(244, 248, 190);
+border: 5px solid black;
+}
+aside{
+
+height: 800PX;
+float: left;
+background-color: rgb(246, 247, 241);
+border: 5px solid black;
+margin-left: 1px;
+position:initial;
+}
+#foto{
+    
+    text-align: center;
+    
+}
+#Presentacion{
+    text-align: center;
+}
+#tituloExperiencias
+{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    background-color: rgb(244, 248, 190);;
+border: 5px solid black;
+margin: 1px;
+}
+body{
+    background-color:white;
+}
+#estudios
+{
+    text-align: center;
+}
+#Contacto{
+    text-align: center;
+
+}
+#apuntes{
+    text-align: center;
+}
+#tituloHabilidades
+{
+    text-align: center;
+}
+p{margin-left: 5px;
+margin-right: 5px;}
+#tituloObjetivos
+
+{
+    text-align: center;
+}
+.col-12 .col-md-9 .col-md-3{
+  position: relative;
+  min-height: 1px;
+  padding-left: 0px;
+  padding-right:0px;
+}
+.botonModoNoche{
+    
+    background: #5e5e5e; /* color de fondo */
+    color: #ffffff; /* color de fuente */
+    border: 2px solid #4741d7; /* tamaño y color de borde */
+    border-radius: 10px; /* redondear bordes */
+    
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0.85em 1.5em;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+    left: 22%;
+  }
+  .botonModoNoche:hover {
+    color: #fff; /* color de fuente hover */
+  }
+  .botonModoNoche::after {
+    content: "";
+    background: #4741d7; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    right: 100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .botonModoNoche:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
